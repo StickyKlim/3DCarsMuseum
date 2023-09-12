@@ -1,0 +1,157 @@
+body {
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed
+}
+h1 {
+	background-color: Linen;
+	color: black;
+	text-align: center;
+}
+canvas { 
+	width: 100%; height: 100%; 
+} 
+.main {
+	float: right;
+	display: inline-block;
+	background-color: CadetBlue;
+	color:white;
+	width: 85%;
+	margin: 2px;
+	text-align: center;
+	border: solid Beige 5px;
+}
+.menu {
+border: solid grey 3px;
+  padding: 10px;
+  background: CadetBlue;
+  float: left;
+  display: block;
+  width: 200px;
+  box-shadow: 5px 2px 8px rgba(0,0,0,.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  background-color: SteelBlue;
+}
+.menu li {
+	margin: 10px 0 0 0px;
+	}
+.menu a {
+  text-decoration: none;
+  display: block;  
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  position: relative;
+  transition: .3s linear;
+}
+/*.menu a:after {
+  content:"\f18e";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 5px;
+  color: white;
+  transition: .2s linear;
+}*/
+.menu a:hover {
+  background: Ivory;
+  color: black;
+  border: solid black 1px;
+}
+.carbox {
+	width: 500px;
+	margin: 5px;
+	text-align: left;
+	font-size: 30px;
+	float: left;
+}
+.set {
+	border: solid beige 2px;
+	width: 800px;
+	font-size: 20px;
+	height: 250px;
+	color: white;
+	margin: 5px;
+	text-align: left;
+	background-color: CadetBlue;
+	float: left;
+}
+.history	{
+	border: solid Beige 2px;
+	width: 800px;
+	color: white;
+	height: 250px;
+	font-size: 20px;
+	margin: 5px;
+	text-align: left;
+	background-color: CadetBlue;
+	float: right;
+}
+li {
+    list-style-type: none;
+}
+.table1 {
+	width: 750px;
+	margin-left: 50px;
+	text-align: left;
+	float: left;
+}
+.table2	{
+	width: 750px;
+	margin-right: 50px;
+	text-align: left;
+	float: right;
+}
+.admin {
+	border: solid Beige 10px;
+	background-color: Gray;
+	width: 250px;
+	height: 100px;
+	float: right;
+}
+.admin a{
+	color: black;
+}
+.but input {
+	background-color: white;
+	text-align: center;
+	border-color: red;
+	padding: 10px 40px;
+	font-size: 18px;
+}
+.main a {
+  text-decoration: none;
+  color: Beige;
+}
+.main a:hover {
+	color: red;
+}
+.but input:hover {
+	background-color: red;
+	color: white;
+}
+input[type=submit]{
+	cursor:pointer
+}
+form input{
+	float:left;
+	margin:5px;
+}
+.add_but {
+	margin-left: 715px;
+}
+.add_but input {
+	background-color: white;
+	border-color: red;
+	padding: 10px 40px;
+	font-size: 18px;
+}
+.add_but input:hover {
+	background-color: red;
+	color: white;
+}
